@@ -15,11 +15,11 @@ D:/Projects/Unity3D/Projects/Architectural-Rendering/Guided Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1435
+2324
 Successfully changed project path to: D:/Projects/Unity3D/Projects/Architectural-Rendering/Guided Project
 D:/Projects/Unity3D/Projects/Architectural-Rendering/Guided Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 98.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -30,44 +30,44 @@ Direct3D:
     Renderer: Radeon (TM) RX 470 Graphics (ID=0x67df)
     Vendor:   
     VRAM:     4075 MB
-    Driver:   30.0.13025.5005
+    Driver:   27.20.22025.1006
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004720 seconds.
+Registered in 0.004971 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 97.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  0.943 seconds
 Domain Reload Profiling:
-	ReloadAssembly (954ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (943ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (90ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (227ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (292ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (98ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (120ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (124ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,37 +75,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008073 seconds.
+Registered in 0.008043 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 101.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 115.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.859 seconds
+- Completed reload, in  2.130 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1860ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (2132ms)
+		BeginReloadAssembly (267ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1546ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1743ms)
+			LoadAssemblies (188ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (518ms)
+			SetupTypeCache (593ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (117ms)
-			SetupLoadedEditorAssemblies (587ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (640ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3339 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 148.6 MB.
-System memory in use after: 148.8 MB.
+System memory in use before: 148.5 MB.
+System memory in use after: 148.7 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3776.
-Total: 5.427500 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.182500 ms MarkObjects: 4.773300 ms  DeleteObjects: 0.113900 ms)
+Total: 7.895700 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.183600 ms MarkObjects: 7.222200 ms  DeleteObjects: 0.124700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,74 +134,353 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007970 seconds 
+  Import took 0.015173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.891593 seconds.
+  path: Assets/PostProcessing
+  artifactKey: Guid(d48fbc7ee60e43c46b91250362ca373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PostProcessing using Guid(d48fbc7ee60e43c46b91250362ca373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e685ed538890dd8a9f46d070e8af53fb') in 0.002149 seconds 
+  Import took 0.008086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.156201 seconds.
+  path: Assets/Scenes/BeachsideTown/PostProcessing Profile.asset
+  artifactKey: Guid(4cfffcc9c33120048b63918da82d12f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/PostProcessing Profile.asset using Guid(4cfffcc9c33120048b63918da82d12f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20365e185c6a24c0a90f391251e2b9da') in 0.082610 seconds 
+  Import took 0.096430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.661577 seconds.
+  path: Assets/Scenes/AlienVideoGameShop
+  artifactKey: Guid(28dae7dee2496ec4db4d9e75bc0dfa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop using Guid(28dae7dee2496ec4db4d9e75bc0dfa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3445552b26cee509ecba25c13aec0861') in 0.002623 seconds 
+  Import took 0.009105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072753 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/LightingData.asset
+  artifactKey: Guid(543135adc7acc1140b320f1e41748d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/LightingData.asset using Guid(543135adc7acc1140b320f1e41748d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cc4f10317d4ac8ccd2c071cce583f1') in 0.036400 seconds 
+  Import took 0.042904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-2_comp_dir.png
+  artifactKey: Guid(2e17cca4edfbe6f4fa63a395f42331d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-2_comp_dir.png using Guid(2e17cca4edfbe6f4fa63a395f42331d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2d2407c3601bb9d29cc88563843828') in 0.102688 seconds 
+  Import took 0.108959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-3_comp_dir.png
+  artifactKey: Guid(aac9725f187f0f2408f2be0318d4df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-3_comp_dir.png using Guid(aac9725f187f0f2408f2be0318d4df54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f83a9dff4f6855b7cf25d7532102007') in 0.056135 seconds 
+  Import took 0.062451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/ReflectionProbe-1.exr
+  artifactKey: Guid(2c6a70de714fea34794a39593e8ef9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/ReflectionProbe-1.exr using Guid(2c6a70de714fea34794a39593e8ef9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58d0a252c62b2f5d1b59be713bb5c84') in 0.104348 seconds 
+  Import took 0.111412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-2_comp_light.exr
+  artifactKey: Guid(2ce1ca80dcdc7dc4990eaf4c3c6077eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-2_comp_light.exr using Guid(2ce1ca80dcdc7dc4990eaf4c3c6077eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8be68aca74c9b87a03e540895bc4132') in 0.114541 seconds 
+  Import took 0.121181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-3_comp_light.exr
+  artifactKey: Guid(e813c9256347d3246a8cb5ef7ffd54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-3_comp_light.exr using Guid(e813c9256347d3246a8cb5ef7ffd54d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f845353b825df36e3e52322a0d3b4a97') in 0.071694 seconds 
+  Import took 0.079177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-1_comp_light.exr
+  artifactKey: Guid(9cdad58f55f012c43a3fe717a5dd52ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-1_comp_light.exr using Guid(9cdad58f55f012c43a3fe717a5dd52ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e3f783db81e770e9d36378c8b5287c') in 0.036617 seconds 
+  Import took 0.043047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-0_comp_light.exr
+  artifactKey: Guid(21be33117ed001445b436b794f325648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-0_comp_light.exr using Guid(21be33117ed001445b436b794f325648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d590089bf36ef9b2e55e17d49d2cd9') in 0.059562 seconds 
+  Import took 0.065945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-1_comp_dir.png
+  artifactKey: Guid(77efc11658c678d4dad75bdee16c50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-1_comp_dir.png using Guid(77efc11658c678d4dad75bdee16c50e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f762b4f796771b86ec98ec9ab4cdbe') in 0.050926 seconds 
+  Import took 0.058420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/ReflectionProbe-0.exr
+  artifactKey: Guid(fc46c90b48e2a314d8ee3c7b06d1742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/ReflectionProbe-0.exr using Guid(fc46c90b48e2a314d8ee3c7b06d1742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ebe12eba3977427f39698f0a181054') in 0.066085 seconds 
+  Import took 0.073551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Scenes/AlienVideoGameShop/Lightmap-0_comp_dir.png
+  artifactKey: Guid(ac5717056d2307d479567f69f13c2c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop/Lightmap-0_comp_dir.png using Guid(ac5717056d2307d479567f69f13c2c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b47f0d4be84a03b12f4cc80bc32d7e') in 0.034329 seconds 
+  Import took 0.040999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.375843 seconds.
+  path: Assets/Scenes/ArchitecturalRendering
+  artifactKey: Guid(b9c35c5c1fb032546ba7bdf4e426f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering using Guid(b9c35c5c1fb032546ba7bdf4e426f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04ff08a4851190e908fc7e16bf3b739') in 0.018625 seconds 
+  Import took 0.025427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069229 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/LightingData.asset
+  artifactKey: Guid(23b2a3b205c2b554ebbcb339f61aa44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/LightingData.asset using Guid(23b2a3b205c2b554ebbcb339f61aa44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94a0f9e41518625227e4d1f9d4b41cc') in 0.040641 seconds 
+  Import took 0.048787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/ReflectionProbe-0.exr
+  artifactKey: Guid(63bf005890fb6d14db7649a73bf536b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/ReflectionProbe-0.exr using Guid(63bf005890fb6d14db7649a73bf536b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995a7a9ff872515b1694654b4f3b72de') in 0.080865 seconds 
+  Import took 0.088026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-0_comp_dir.png
+  artifactKey: Guid(67518d8e8d1643046aaab67ad48e54ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-0_comp_dir.png using Guid(67518d8e8d1643046aaab67ad48e54ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6f0012badbe1eb695f3ea2915ca67e') in 0.077230 seconds 
+  Import took 0.083763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/ReflectionProbe-1.exr
+  artifactKey: Guid(9db77c5103e956546aca8bb27ce876b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/ReflectionProbe-1.exr using Guid(9db77c5103e956546aca8bb27ce876b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c513f4a92b937a55d8b774760a70b306') in 0.054164 seconds 
+  Import took 0.061193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-2_comp_dir.png
+  artifactKey: Guid(a170404111bdddd4aac8bb7b58a75fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-2_comp_dir.png using Guid(a170404111bdddd4aac8bb7b58a75fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673fed39e8c8c94c63c51a4cb540e07b') in 0.065507 seconds 
+  Import took 0.072089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-1_comp_light.exr
+  artifactKey: Guid(47736ea7fe7a97e45bb751207dcea8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-1_comp_light.exr using Guid(47736ea7fe7a97e45bb751207dcea8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ef116fdae20d465650c77b87005af5') in 0.070901 seconds 
+  Import took 0.077889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-2_comp_light.exr
+  artifactKey: Guid(297786badf2594b478805b655a3be22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-2_comp_light.exr using Guid(297786badf2594b478805b655a3be22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c513e1e154ff8a3eb6036b4a584d2870') in 0.052900 seconds 
+  Import took 0.059315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-1_comp_dir.png
+  artifactKey: Guid(c014c9455ddf7be48a844b13dd4261ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-1_comp_dir.png using Guid(c014c9455ddf7be48a844b13dd4261ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f644879f6ade2db20796292941ff3df3') in 0.070641 seconds 
+  Import took 0.078793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(7b421c4295774434e8db07399953816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-0_comp_shadowmask.png using Guid(7b421c4295774434e8db07399953816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ce7439633ce8384668154b5a83983e') in 0.054920 seconds 
+  Import took 0.063651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(ceb4349c2700e5d4f97bac81e8c0f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-2_comp_shadowmask.png using Guid(ceb4349c2700e5d4f97bac81e8c0f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723e39049cff67047bff9dbddac75355') in 0.034461 seconds 
+  Import took 0.041662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c1f2c21e5689d6248bafd969a5468f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-0_comp_light.exr using Guid(c1f2c21e5689d6248bafd969a5468f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf842b0b4b372ac65d8ceeeb0145ba0') in 0.070779 seconds 
+  Import took 0.078310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Scenes/ArchitecturalRendering/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(115c27d5331467448a84d8fa4aa0abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArchitecturalRendering/Lightmap-1_comp_shadowmask.png using Guid(115c27d5331467448a84d8fa4aa0abb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d9a73ab9dd1de96c33fa57553b6dc5') in 0.062605 seconds 
+  Import took 0.069228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186872 seconds.
+  path: Assets/Scenes/BeachsideTown
+  artifactKey: Guid(38391154d4648fb43982c60dddec8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown using Guid(38391154d4648fb43982c60dddec8d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3343670e8fc13443c57ea2e44c2c6f4') in 0.015114 seconds 
+  Import took 0.021795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054250 seconds.
+  path: Assets/Scenes/BeachsideTown/LightingData.asset
+  artifactKey: Guid(3bc773e38a8aeea42aff67297053bd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/LightingData.asset using Guid(3bc773e38a8aeea42aff67297053bd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b7bc3e53c9cde56158a5d408796ef8') in 0.002734 seconds 
+  Import took 0.009322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-0_comp_dir.png
+  artifactKey: Guid(53f4b8c69943cd048ab79dcb0abbddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-0_comp_dir.png using Guid(53f4b8c69943cd048ab79dcb0abbddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c854f9f3c714b9a9503603387b352275') in 0.010577 seconds 
+  Import took 0.017498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Scenes/BeachsideTown/ReflectionProbe-0.exr
+  artifactKey: Guid(59d5dc460dffd5f47836a5d1fd156e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/ReflectionProbe-0.exr using Guid(59d5dc460dffd5f47836a5d1fd156e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ac90fa590f50d3c917cea21f89c1f3') in 0.014634 seconds 
+  Import took 0.021088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Scenes/BeachsideTown/ReflectionProbe-1.exr
+  artifactKey: Guid(b18a8125b1893094eaa9969e3b5029a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/ReflectionProbe-1.exr using Guid(b18a8125b1893094eaa9969e3b5029a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7ab4c41ab71f8c5bd08b5051114028') in 0.013790 seconds 
+  Import took 0.020133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-1_comp_dir.png
+  artifactKey: Guid(b2053516e8c485c4c8308ebcd61b9183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-1_comp_dir.png using Guid(b2053516e8c485c4c8308ebcd61b9183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ce3b792d4a663dba55852031eb3b20') in 0.018131 seconds 
+  Import took 0.024078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c92ab4d004ab5b04c8693d89953ad57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-1_comp_light.exr using Guid(c92ab4d004ab5b04c8693d89953ad57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f38dd2c7d32f3ad73b22bef17e585e2') in 0.010467 seconds 
+  Import took 0.016407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-0_comp_light.exr
+  artifactKey: Guid(42547bce6e6ec5c4d8587723c3eb3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-0_comp_light.exr using Guid(42547bce6e6ec5c4d8587723c3eb3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de37bcabfbbcfd075c218e946c7c46c0') in 0.010861 seconds 
+  Import took 0.016913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-2_comp_light.exr
+  artifactKey: Guid(153927d1f807a9d4899c579195ca0428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-2_comp_light.exr using Guid(153927d1f807a9d4899c579195ca0428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737d62c7acf6fc6f6f76656de37638f9') in 0.009750 seconds 
+  Import took 0.016048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-2_comp_dir.png
+  artifactKey: Guid(f4b3305f24c9cdf42b4ed39c81dd5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-2_comp_dir.png using Guid(f4b3305f24c9cdf42b4ed39c81dd5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc837a30af2bbe7dcb4c1e53b2f8ae5') in 0.009869 seconds 
+  Import took 0.016006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(31783cca0fc22b941804869614b5b5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-0_comp_shadowmask.png using Guid(31783cca0fc22b941804869614b5b5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fdb6d0698469d064e8df2cfcced838') in 0.012362 seconds 
+  Import took 0.018751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(eb5e4db8a85053f45bc23694ba8b1a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-2_comp_shadowmask.png using Guid(eb5e4db8a85053f45bc23694ba8b1a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee02c25a8489a93ad82c6cf0277defd5') in 0.011932 seconds 
+  Import took 0.018337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Scenes/BeachsideTown/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(8d6231cec31c65b45b0207599816ea2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/Lightmap-1_comp_shadowmask.png using Guid(8d6231cec31c65b45b0207599816ea2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eb4ad9c32b23c9c3e0ad2d8a2448ac') in 0.010871 seconds 
+  Import took 0.018592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.254952 seconds.
+  path: Assets/Scenes/BeachsideTown/PostProcessing.asset
+  artifactKey: Guid(4cfffcc9c33120048b63918da82d12f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BeachsideTown/PostProcessing.asset using Guid(4cfffcc9c33120048b63918da82d12f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd502d9bf39736497c121704d7bfb7c') in 0.002761 seconds 
+  Import took 0.009192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.142457 seconds.
+  path: Assets/Scenes/AlienVideoGameShop.unity
+  artifactKey: Guid(69a8e04b4922a344cb2a7355b66720f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AlienVideoGameShop.unity using Guid(69a8e04b4922a344cb2a7355b66720f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc75a09ffd8e7d7efeb145d4b5dfe4c4') in 0.003378 seconds 
+  Import took 0.013289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.535668 seconds.
   path: Assets/Scenes/ArchitecturalRendering.unity
   artifactKey: Guid(2ba632acea564114b95386ca1359d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArchitecturalRendering.unity using Guid(2ba632acea564114b95386ca1359d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8d602bfbad4617fd74f9b03ee9fa9e') in 0.025228 seconds 
-  Import took 0.032539 seconds .
+Start importing Assets/Scenes/ArchitecturalRendering.unity using Guid(2ba632acea564114b95386ca1359d26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a6590223b973c7a7fdf372b2d3d37f') in 0.002722 seconds 
+  Import took 0.009785 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 469.996907 seconds.
-  path: Assets/Scenes/BeachsideTown.unity
-  artifactKey: Guid(32e29f597abf7064fa3f0e6356c7bb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BeachsideTown.unity using Guid(32e29f597abf7064fa3f0e6356c7bb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff3c68c4146d403ea2e777b485493cd') in 0.002553 seconds 
-  Import took 0.009759 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007358 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.707 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1708ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (151ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (516ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (490ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3778.
-Total: 5.029500 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.178500 ms MarkObjects: 4.472900 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
